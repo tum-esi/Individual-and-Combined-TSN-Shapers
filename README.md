@@ -1,7 +1,10 @@
+# Advanced Modeling and Analysis of Individual and Combined TSN Shapers in OMNeT++
+
 Test Case of the publication: Advanced Modeling and Analysis of Individual and Combined TSN Shapers in OMNeT++
 
 To cite our work, please use the following BibTex code:
 
+```
 @inproceedings{rtcsa:2023,
   year         = { 2023 },
   location     = { Niigata, Japan },
@@ -13,5 +16,4 @@ To cite our work, please use the following BibTex code:
   issn         = {   },
   month        = {   },
 }
-
-
+```
