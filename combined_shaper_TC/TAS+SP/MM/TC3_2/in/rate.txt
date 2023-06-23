@@ -1,0 +1,2 @@
+# link rate, integrationMode
+100, GuardBand,
