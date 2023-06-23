@@ -1,5 +1,3 @@
-# Individual_and_Combined_TSN_Shapers
-
 Test Case of the publication: Advanced Modeling and Analysis of Individual and Combined TSN Shapers in OMNeT++
 
 To cite our work, please use the following BibTex code:
@@ -15,3 +13,5 @@ To cite our work, please use the following BibTex code:
   issn         = {   },
   month        = {   },
 }
+
+
