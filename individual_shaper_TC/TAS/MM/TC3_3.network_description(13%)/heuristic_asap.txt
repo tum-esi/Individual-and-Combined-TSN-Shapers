@@ -1,0 +1,84 @@
+SOLUTION FOR: TC_x.network_description (flows: 15, frames: 55)
+         Scheduler: heuristic_asap
+         Objective: None 
+            Queues: 0
+End-to-end latency: 429
+              Time: 1.09s
+
+FLOW END-TO-END LATENCIES:
+	Flow  1: e2e latency = 126.24 us (lower bound = 126.24 us, deadline = 1000 us)
+	Flow  5: e2e latency =  372.4 us (lower bound = 372.4 us, deadline = 2000 us)
+	Flow 10: e2e latency = 333.56 us (lower bound = 330.56 us, deadline = 2000 us)
+	Flow  4: e2e latency =  466.4 us (lower bound = 466.4 us, deadline = 2000 us)
+	Flow  0: e2e latency = 504.16 us (lower bound = 504.16 us, deadline = 2000 us)
+	Flow  2: e2e latency = 435.52 us (lower bound = 359.52 us, deadline = 2000 us)
+	Flow 13: e2e latency = 376.88 us (lower bound = 204.88 us, deadline = 2000 us)
+	Flow  7: e2e latency =  85.64 us (lower bound = 84.64 us, deadline = 5000 us)
+	Flow  8: e2e latency = 163.84 us (lower bound = 87.84 us, deadline = 5000 us)
+	Flow  3: e2e latency =  378.0 us (lower bound = 378.0 us, deadline = 5000 us)
+	Flow 14: e2e latency = 482.88 us (lower bound = 482.88 us, deadline = 5000 us)
+	Flow  6: e2e latency = 228.32 us (lower bound = 228.32 us, deadline = 10000 us)
+	Flow 11: e2e latency = 193.08 us (lower bound = 126.08 us, deadline = 10000 us)
+	Flow 12: e2e latency = 321.52 us (lower bound = 321.52 us, deadline = 10000 us)
+	Flow  9: e2e latency = 204.48 us (lower bound = 170.48 us, deadline = 10000 us)
+
+QUEUE UTILIZATION ON LINKS:
+
+FLOW INSTANCE QUEUE ASSIGNMENTS (where > 0):
+
+FRAME OFFSETS
+	Frame   1.1.[ES2, SW1]: offset =   0, (duration = 38.24 us, finish time = 38.24 us
+	Frame   1.1.[SW1, SW4]: offset =  44, (duration = 38.24 us, finish time = 82.24000000000001 us
+	Frame  1.1.[SW4, ES10]: offset =  88, (duration = 38.24 us, finish time = 126.24000000000001 us
+	Frame   5.1.[ES6, SW2]: offset =   0, (duration = 120.4 us, finish time = 120.4 us
+	Frame   5.1.[SW2, SW4]: offset = 126, (duration = 120.4 us, finish time = 246.4 us
+	Frame  5.1.[SW4, ES12]: offset = 252, (duration = 120.4 us, finish time = 372.4 us
+	Frame  10.1.[ES5, SW2]: offset = 132, (duration = 106.56 us, finish time = 238.56 us
+	Frame  10.1.[SW2, SW4]: offset = 247, (duration = 106.56 us, finish time = 353.56 us
+	Frame 10.1.[SW4, ES11]: offset = 359, (duration = 106.56 us, finish time = 465.56 us
+	Frame   4.1.[ES5, SW2]: offset = 247, (duration = 112.4 us, finish time = 359.4 us
+	Frame   4.1.[SW2, SW4]: offset = 365, (duration = 112.4 us, finish time = 477.4 us
+	Frame   4.1.[SW4, SW3]: offset = 483, (duration = 112.4 us, finish time = 595.4 us
+	Frame   4.1.[SW3, ES9]: offset = 601, (duration = 112.4 us, finish time = 713.4 us
+	Frame   0.1.[ES1, SW1]: offset =  50, (duration = 96.16 us, finish time = 146.16 us
+	Frame   0.1.[SW1, SW4]: offset = 152, (duration = 96.16 us, finish time = 248.16 us
+	Frame   0.1.[SW4, SW2]: offset = 254, (duration = 96.16 us, finish time = 350.15999999999997 us
+	Frame   0.1.[SW2, SW3]: offset = 356, (duration = 96.16 us, finish time = 452.15999999999997 us
+	Frame   0.1.[SW3, ES7]: offset = 458, (duration = 96.16 us, finish time = 554.16 us
+	Frame   2.1.[ES3, SW1]: offset = 158, (duration = 67.52 us, finish time = 225.51999999999998 us
+	Frame   2.1.[SW1, SW4]: offset = 254, (duration = 67.52 us, finish time = 321.52 us
+	Frame   2.1.[SW4, SW2]: offset = 356, (duration = 67.52 us, finish time = 423.52 us
+	Frame   2.1.[SW2, SW3]: offset = 453, (duration = 67.52 us, finish time = 520.52 us
+	Frame   2.1.[SW3, ES8]: offset = 526, (duration = 67.52 us, finish time = 593.52 us
+	Frame  13.1.[ES3, SW1]: offset = 254, (duration = 36.88 us, finish time = 290.88 us
+	Frame  13.1.[SW1, SW4]: offset = 356, (duration = 36.88 us, finish time = 392.88 us
+	Frame  13.1.[SW4, SW2]: offset = 453, (duration = 36.88 us, finish time = 489.88 us
+	Frame  13.1.[SW2, SW3]: offset = 526, (duration = 36.88 us, finish time = 562.88 us
+	Frame  13.1.[SW3, ES8]: offset = 594, (duration = 36.88 us, finish time = 630.88 us
+	Frame   7.1.[ES1, SW1]: offset = 362, (duration = 24.64 us, finish time = 386.64 us
+	Frame   7.1.[SW1, SW4]: offset = 393, (duration = 24.64 us, finish time = 417.64 us
+	Frame  7.1.[SW4, ES12]: offset = 423, (duration = 24.64 us, finish time = 447.64 us
+	Frame   8.1.[ES6, SW2]: offset = 371, (duration = 25.84 us, finish time = 396.84 us
+	Frame   8.1.[SW2, SW4]: offset = 478, (duration = 25.84 us, finish time = 503.84 us
+	Frame  8.1.[SW4, ES12]: offset = 509, (duration = 25.84 us, finish time = 534.84 us
+	Frame   3.1.[ES4, SW2]: offset = 484, (duration = 90.0 us, finish time = 574.0 us
+	Frame   3.1.[SW2, SW4]: offset = 580, (duration = 90.0 us, finish time = 670.0 us
+	Frame   3.1.[SW4, SW3]: offset = 676, (duration = 90.0 us, finish time = 766.0 us
+	Frame   3.1.[SW3, ES7]: offset = 772, (duration = 90.0 us, finish time = 862.0 us
+	Frame  14.1.[ES5, SW2]: offset = 586, (duration = 116.88 us, finish time = 702.88 us
+	Frame  14.1.[SW2, SW4]: offset = 708, (duration = 116.88 us, finish time = 824.88 us
+	Frame  14.1.[SW4, SW3]: offset = 830, (duration = 116.88 us, finish time = 946.88 us
+	Frame  14.1.[SW3, ES8]: offset = 952, (duration = 116.88 us, finish time = 1068.88 us
+	Frame   6.1.[ES3, SW1]: offset = 399, (duration = 72.32000000000001 us, finish time = 471.32 us
+	Frame   6.1.[SW1, SW4]: offset = 477, (duration = 72.32000000000001 us, finish time = 549.32 us
+	Frame  6.1.[SW4, ES10]: offset = 555, (duration = 72.32000000000001 us, finish time = 627.32 us
+	Frame  11.1.[ES4, SW2]: offset = 714, (duration = 38.08 us, finish time = 752.08 us
+	Frame  11.1.[SW2, SW4]: offset = 825, (duration = 38.08 us, finish time = 863.08 us
+	Frame 11.1.[SW4, ES12]: offset = 869, (duration = 38.08 us, finish time = 907.08 us
+	Frame  12.1.[ES1, SW1]: offset = 483, (duration = 103.52 us, finish time = 586.52 us
+	Frame  12.1.[SW1, SW4]: offset = 592, (duration = 103.52 us, finish time = 695.52 us
+	Frame 12.1.[SW4, ES10]: offset = 701, (duration = 103.52 us, finish time = 804.52 us
+	Frame   9.1.[ES4, SW2]: offset = 825, (duration = 38.480000000000004 us, finish time = 863.48 us
+	Frame   9.1.[SW2, SW4]: offset = 869, (duration = 38.480000000000004 us, finish time = 907.48 us
+	Frame   9.1.[SW4, SW3]: offset = 947, (duration = 38.480000000000004 us, finish time = 985.48 us
+	Frame   9.1.[SW3, ES9]: offset = 991, (duration = 38.480000000000004 us, finish time = 1029.48 us

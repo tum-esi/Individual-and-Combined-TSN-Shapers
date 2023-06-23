@@ -1,0 +1,16 @@
+#!R id, size(byte), deadline, <virtual link id>, type [ST], priority, [period | rate] (us)
+Flow0, 1160, 2000, vl0, ST, 0, 2000
+Flow1, 436, 1000, vl1, ST, 0, 1000
+Flow2, 802, 2000, vl2, ST, 0, 2000
+Flow3, 1083, 5000, vl3, ST, 0, 5000
+Flow4, 1363, 2000, vl4, ST, 0, 2000
+Flow5, 1463, 2000, vl5, ST, 0, 2000
+Flow6, 862, 10000, vl6, ST, 0, 10000
+Flow7, 266, 5000, vl7, ST, 0, 5000
+Flow8, 281, 5000, vl8, ST, 0, 5000
+Flow9, 439, 10000, vl9, ST, 0, 10000
+Flow10, 1290, 2000, vl10, ST, 0, 2000
+Flow11, 434, 10000, vl11, ST, 0, 10000
+Flow12, 1252, 10000, vl12, ST, 0, 10000
+Flow13, 419, 2000, vl13, ST, 0, 2000
+Flow14, 1419, 5000, vl14, ST, 0, 5000
